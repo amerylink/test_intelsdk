@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="intel_comm">
+      <UniqueIdentifier>{7b10e881-7cc2-41e4-a200-895c9e4f43a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media_pro">
+      <UniqueIdentifier>{ee60f2a1-a4ee-4ea0-9cee-3e27ceb728eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intel_plugin_vpp">
+      <UniqueIdentifier>{105f5da3-0f96-42b6-9cdc-5c29f9b45f45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_medias.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_def.h">
+      <Filter>media_pro</Filter>
+    </ClInclude>
+    <ClInclude Include="pipe_decode.h">
+      <Filter>media_pro</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_func.h">
+      <Filter>media_pro</Filter>
+    </ClInclude>
+    <ClInclude Include="pipe_encode.h">
+      <Filter>media_pro</Filter>
+    </ClInclude>
+    <ClInclude Include="pipe_bitstream.h">
+      <Filter>media_pro</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_links\sample_plugins\vpp_plugin\include\mfx_multi_vpp.h">
+      <Filter>intel_plugin_vpp</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_links\sample_plugins\vpp_plugin\include\mfx_vpp_plugin.h">
+      <Filter>intel_plugin_vpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_medias.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\avc_bitstream.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\avc_nal_spl.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\avc_spl.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\base_allocator.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\d3d_allocator.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\d3d_device.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\d3d11_allocator.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\d3d11_device.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\general_allocator.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\mfx_buffering.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\plugin_utils.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\sample_utils.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\sysmem_allocator.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\vaapi_allocator.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\vaapi_device.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\vaapi_utils.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\vaapi_utils_android.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\vaapi_utils_drm.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\vaapi_utils_x11.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_common\src\vpp_ex.cpp">
+      <Filter>intel_comm</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe_decode.cpp">
+      <Filter>media_pro</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe_encode.cpp">
+      <Filter>media_pro</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe_bitstream.cpp">
+      <Filter>media_pro</Filter>
+    </ClCompile>
+    <ClCompile Include="comm_def.cpp">
+      <Filter>media_pro</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_links\sample_plugins\vpp_plugin\src\mfx_vpp_plugin.cpp">
+      <Filter>intel_plugin_vpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
